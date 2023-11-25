@@ -1,0 +1,46 @@
+:root {
+  --first-color-text: #434455;
+  --second-color-text: #4d5ae5;
+  --color-white: white;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+}
+
+body {
+  font-family: "Roboto", "Raleway", "sans-serif";
+  color: var(--SLATE, #434455);
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+header {
+  background-color: var(--color-white);
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  color: var(--color-white);
+  background-color: var(--iris);
+}
+
+a:hover,
+button:hover {
+  color: var(--color-white);
+  background-color: var(--ocean);
+}
+
+.logo {
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: var(--first-color-text);
+}
