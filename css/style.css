@@ -7,7 +7,6 @@
   --logo-studio: #2e2f42;
   --background-color1: #2e2f42;
 }
-
 body {
   font-family: "Roboto", sans-serif;
   color: var(--SLATE, #434455);
@@ -20,63 +19,53 @@ body {
   letter-spacing: 0.32px;
   background-color: var(--color-white);
 }
-
 header {
   background-color: var(--color-white);
 }
-
 .list {
   list-style: none;
 }
-
 a {
   text-decoration: none;
 }
-
 button {
   color: var(--color-white);
   background-color: var(--iris);
 }
-
-.button-index-first {
-  color: var(--second-color-text);
+.button-order-service {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  color: var(--second-color-text);
 }
-
 a:hover {
   color: var(--ocean);
 }
-
 a:active {
   color: var(--ocean);
 }
-
 a:focus {
   color: var(--ocean);
+  background-color: var(--ocean);
 }
-
 button:hover {
   color: var(--color-white);
   background-color: var(--ocean);
+  cursor: pointer;
 }
-
 .link {
   text-decoration: none;
   font-weight: 500;
   color: var(--logo-studio);
 }
-
 .link-address {
   color: var(--first-color-text);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
 .nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -84,11 +73,9 @@ button:hover {
   letter-spacing: 0.02em;
   color: var(--logo-studio);
 }
-
 .highlight {
   color: #2e2f42;
 }
-
 .logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -99,19 +86,15 @@ button:hover {
   letter-spacing: 0.03em;
   color: var(--second-color-text);
 }
-
 .address {
   font-style: normal;
 }
-
 .logo-span {
   color: var(--logo-studio);
 }
-
 .main-index-section-first {
   background-color: var(--background-color1);
 }
-
 .index-section-first-header {
   font-size: 56px;
   line-height: 1.07;
