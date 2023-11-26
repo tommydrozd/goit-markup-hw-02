@@ -20,12 +20,12 @@ body {
   background-color: var(--color-white);
 }
 
-logo-span {
-  color: var(--logo-studio);
-}
-
 header {
   background-color: var(--color-white);
+}
+
+.nav-list {
+  list-style: none;
 }
 
 a {
@@ -52,4 +52,8 @@ button:hover {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--second-color-text);
+}
+
+.logo-span {
+  color: var(--logo-studio);
 }
