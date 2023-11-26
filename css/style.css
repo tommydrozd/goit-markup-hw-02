@@ -37,7 +37,11 @@ button {
   background-color: var(--iris);
 }
 
-a:hover,
+a:hover {
+  color: var(--color-white);
+  background-color: var(--ocean);
+}
+
 button:hover {
   color: var(--color-white);
   background-color: var(--ocean);
@@ -68,6 +72,10 @@ button:hover {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--second-color-text);
+}
+
+.address {
+  font-style: normal;
 }
 
 .logo-span {
