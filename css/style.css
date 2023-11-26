@@ -110,3 +110,12 @@ button:hover {
   letter-spacing: 0.02em;
   color: var(--logo-studio);
 }
+
+.header-section-three-index {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--background-color1);
+}
