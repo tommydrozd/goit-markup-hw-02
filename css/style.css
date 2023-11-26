@@ -4,18 +4,24 @@
   --color-white: white;
   --iris: #4d5ae5;
   --ocean: #404bbf;
+  --logo-studio: #2e2f42;
 }
 
 body {
   font-family: "Roboto", "Raleway", "sans-serif";
   color: var(--SLATE, #434455);
   /* Body */
-  font-family: Roboto;
+
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
+  background-color: var(--color-white);
+}
+
+logo-span {
+  color: var(--logo-studio);
 }
 
 header {
@@ -38,9 +44,12 @@ button:hover {
 }
 
 .logo {
-  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 800;
-  color: var(--first-color-text);
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--second-color-text);
 }
