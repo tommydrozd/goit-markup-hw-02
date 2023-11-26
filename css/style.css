@@ -5,6 +5,7 @@
   --iris: #4d5ae5;
   --ocean: #404bbf;
   --logo-studio: #2e2f42;
+  --background-color1: #2e2f42;
 }
 
 body {
@@ -37,6 +38,15 @@ button {
   background-color: var(--iris);
 }
 
+.button-index-first {
+  color: var(--second-color-text);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
 a:hover {
   color: var(--ocean);
 }
@@ -58,6 +68,13 @@ button:hover {
   text-decoration: none;
   font-weight: 500;
   color: var(--logo-studio);
+}
+
+.link-address {
+  color: var(--first-color-text);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .nav-link {
@@ -89,4 +106,16 @@ button:hover {
 
 .logo-span {
   color: var(--logo-studio);
+}
+
+.main-index-section-1 {
+  background-color: var(--background-color1);
+}
+
+.index-section-first-header {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
