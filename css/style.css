@@ -38,8 +38,13 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--second-color-text);
+  color: var(--color-white);
 }
+
+.button-order-service:active {
+  background-color: var(--ocean);
+}
+
 a:hover {
   color: var(--ocean);
 }
