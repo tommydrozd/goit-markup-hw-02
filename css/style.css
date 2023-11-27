@@ -141,3 +141,7 @@ button:hover {
   text-transform: capitalize;
   color: var(--background-color1);
 }
+
+.footer-index {
+  background-color: var(--background-color1);
+}
