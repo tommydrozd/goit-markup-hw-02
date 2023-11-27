@@ -143,6 +143,11 @@ button:hover {
 .section-four-background {
   background-color: #f4f4fd;
 }
+
+.list-section-four-background {
+  background-color: #ffffff;
+}
+
 .header-section-four-index {
   font-size: 36px;
   line-height: 1.11;
