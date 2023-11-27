@@ -155,6 +155,10 @@ button:hover {
   letter-spacing: 0.02em;
 }
 
+.footer-portfolio {
+  background-color: var(--background-color1);
+}
+
 .portfoliobutton {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
