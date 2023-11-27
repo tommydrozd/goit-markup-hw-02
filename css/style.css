@@ -6,6 +6,7 @@
   --ocean: #404bbf;
   --logo-studio: #2e2f42;
   --background-color1: #2e2f42;
+  --background-color2: #f4f4fd;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -121,6 +122,15 @@ button:hover {
 }
 
 .header-section-three-index {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--background-color1);
+}
+
+.header-section-four-index {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
