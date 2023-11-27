@@ -39,6 +39,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--color-white);
+  cursor: pointer;
 }
 
 .button-order-service:active {
@@ -58,7 +59,6 @@ a:focus {
 button:hover {
   color: var(--color-white);
   background-color: var(--ocean);
-  cursor: pointer;
 }
 .link {
   text-decoration: none;
