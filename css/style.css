@@ -130,6 +130,9 @@ button:hover {
   color: var(--background-color1);
 }
 
+.section4-background {
+  background: var(--background-color2);
+}
 .header-section-four-index {
   font-size: 36px;
   line-height: 1.11;
