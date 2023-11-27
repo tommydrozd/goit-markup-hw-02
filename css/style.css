@@ -133,6 +133,13 @@ button:hover {
   color: var(--background-color1);
 }
 
+.header-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
 .section-four-background {
   background-color: #ffffff;
 }
