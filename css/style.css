@@ -86,6 +86,9 @@ button:hover {
 .highlight {
   color: #2e2f42;
 }
+.highlight-footer {
+  color: var(--background-color2);
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -131,7 +134,7 @@ button:hover {
 }
 
 .section-four-background {
-  background: var(--background-color2);
+  background-color: var(--background-color2);
 }
 .header-section-four-index {
   font-size: 36px;
