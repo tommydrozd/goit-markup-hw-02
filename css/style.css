@@ -7,6 +7,7 @@
   --logo-studio: #2e2f42;
   --background-color1: #2e2f42;
   --background-color2: #f4f4fd;
+  --bg-color: #ffffff;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -201,4 +202,8 @@ button:hover {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--first-color-text);
+}
+
+.specialist-item {
+  background-color: var(--bg-color);
 }
