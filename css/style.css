@@ -11,7 +11,7 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--SLATE, #434455);
+  color: var(--first-color-text);
   /* Body */
 
   font-size: 16px;
@@ -60,7 +60,6 @@ a:active {
 }
 a:focus {
   color: var(--ocean);
-  background-color: var(--ocean);
 }
 button:hover {
   color: var(--color-white);
@@ -85,7 +84,7 @@ button:hover {
   color: var(--logo-studio);
 }
 .highlight {
-  color: #2e2f42;
+  color: var(--logo-studio);
 }
 .highlight-footer {
   color: var(--background-color2);
@@ -114,11 +113,11 @@ button:hover {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--color-white);
 }
 
 .heading-values {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -142,15 +141,15 @@ button:hover {
 }
 
 .section-four-background {
-  background-color: #f4f4fd;
+  background-color: var(--background-color2);
 }
 
 .list-section-four-background {
-  background-color: #ffffff;
+  background-color: var(--color-white);
 }
 
 .section-four-background-fff {
-  background-color: #ffffff;
+  background-color: var(--color-white);
 }
 
 .header-section-four-index {
@@ -168,7 +167,7 @@ button:hover {
 
 .footer-p {
   line-height: 1.5;
-  color: #f4f4fd;
+  color: var(--background-color2);
   letter-spacing: 0.02em;
 }
 
@@ -188,17 +187,18 @@ button:hover {
 }
 
 .portfoliobutton:hover {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--color-white);
+  background-color: var(--ocean);
 }
 
 .portfoliobutton:focus {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--color-white);
+  background-color: var(--ocean);
 }
 
 .portfolio-p {
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--first-color-text);
@@ -206,4 +206,8 @@ button:hover {
 
 .specialist-item {
   background-color: var(--bg-color);
+}
+
+.image:hover {
+  cursor: pointer;
 }
