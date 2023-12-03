@@ -83,7 +83,12 @@ button {
   letter-spacing: 0.04em;
   color: var(--color-white);
   cursor: pointer;
-}
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: var(--second-color-text);
+  border-radius: 4px;
 
 .button-order-service:active {
   background-color: var(--ocean);
@@ -154,8 +159,10 @@ button:hover {
 }
 .main-index-section-first {
   background-color: var(--background-color1);
+  padding: 188px 0;
 }
 .index-section-first-header {
+  max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
