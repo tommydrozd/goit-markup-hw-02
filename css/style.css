@@ -27,7 +27,7 @@ body {
   letter-spacing: 0.32px;
   background-color: var(--color-white);
 }
-header {
+.header {
   background-color: var(--color-white);
   border-bottom: 1px solid var(--border-bottom-color);
 }
