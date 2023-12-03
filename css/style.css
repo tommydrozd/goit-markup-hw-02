@@ -8,6 +8,7 @@
   --background-color1: #2e2f42;
   --background-color2: #f4f4fd;
   --bg-color: #ffffff;
+  --border-bottom-color: #e7e9fc;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -23,9 +24,31 @@ body {
 }
 header {
   background-color: var(--color-white);
+  border-bottom: 1px solid var(--border-bottom-color);
 }
+
+.header-div {
+  display: flex;
+}
+
+.container {
+  width: 1128px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
 .list {
   list-style: none;
+}
+
+.main-menu {
+  display: flex;
+  gap: 40px;
 }
 a {
   text-decoration: none;
@@ -97,6 +120,7 @@ button:hover {
   color: var(--background-color2);
 }
 .logo {
+  margin-right: 76px;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   text-decoration: none;
