@@ -69,9 +69,22 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
+.punkt-listy3 {
+  width: calc((100% - 48px) / 3);
+}
+
 .h3-list-margin {
   margin-bottom: 8px;
 }
+
+.s3-padding {
+  padding-bottom: 120px;
+}
+
+.s3-h2-margin {
+  margin-bottom: 72px;
+}
+
 .main-menu {
   display: flex;
   gap: 40px;
