@@ -69,7 +69,7 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
-.punkt-listy2 {
+.punkt-listydwa {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
@@ -233,7 +233,7 @@ button:hover {
   letter-spacing: 0.02em;
 }
 
-.s4-padding {
+.sfour-padding {
   padding: 120px 0;
 }
 .section-four-background {
