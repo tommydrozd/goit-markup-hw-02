@@ -89,6 +89,7 @@ button {
   border: none;
   background-color: var(--second-color-text);
   border-radius: 4px;
+}
 
 .button-order-service:active {
   background-color: var(--ocean);
@@ -263,6 +264,9 @@ button:hover {
 }
 
 .image:hover {
-  cursor: pointer;}
+  cursor: pointer;
+}
 
-
+.h1-s1 {
+  max-width: 496px;
+}
