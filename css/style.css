@@ -214,6 +214,9 @@ button:hover {
   color: var(--logo-studio);
 }
 
+.section2 {
+  padding: 120px 0;
+}
 .header-section-three-index {
   font-size: 36px;
   line-height: 1.11;
@@ -309,10 +312,6 @@ button:hover {
 
 .h1-s1 {
   max-width: 496px;
-}
-
-.section2 {
-  padding: 120px 0;
 }
 
 .visually-hidden {
