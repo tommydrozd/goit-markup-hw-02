@@ -60,7 +60,7 @@ img {
   gap: 40px;
 }
 
-.list-s2-flex-gap {
+.list-stwo-flex-gap {
   display: flex;
   gap: 24px;
 }
@@ -214,7 +214,7 @@ button:hover {
   color: var(--logo-studio);
 }
 
-.section2 {
+.section-2-padding {
   padding: 120px 0;
 }
 .header-section-three-index {
