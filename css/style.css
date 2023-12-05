@@ -60,7 +60,7 @@ img {
   gap: 40px;
 }
 
-.list-stwo-flex-gap {
+.list-s-two-flex-gap {
   display: flex;
   gap: 24px;
 }
@@ -78,7 +78,7 @@ img {
   width: calc((100% - 48px) / 3);
 }
 
-.hthree-list-margin {
+.h-three-list-margin {
   margin-bottom: 8px;
 }
 
@@ -148,7 +148,7 @@ button:hover {
   color: var(--logo-studio);
 }
 
-.link2-footer {
+.footer-link {
   display: inline-block;
   margin-bottom: 16px;
 }
@@ -331,7 +331,7 @@ button:hover {
   padding: 32px 0px;
 }
 
-.pracownik-h3 {
+.pracownik-h-trzy {
   text-align: center;
   margin-bottom: 8px;
 }
