@@ -148,6 +148,11 @@ button:hover {
   color: var(--logo-studio);
 }
 
+.link2-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .address {
   font-style: normal;
   font-weight: 400;
@@ -257,10 +262,12 @@ button:hover {
   line-height: 1.5;
   color: var(--background-color2);
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 .footer-portfolio {
   background-color: var(--background-color1);
+  padding: 100px 0;
 }
 
 .portfoliobutton {
