@@ -369,8 +369,8 @@ button:hover {
 }
 
 .portfolio-list-elements-div {
+  margin-bottom: 8px;
   padding: 32px 16px;
   border: 1px solid var(--border-bottom-color);
   border-top: none;
-  margin-bottom: 8px;
 }
