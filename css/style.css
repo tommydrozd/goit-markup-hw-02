@@ -34,6 +34,20 @@ body {
 
 .header-div {
   display: flex;
+  height: 72px;
+}
+
+.address {
+  font-style: normal;
+  font-weight: 400;
+}
+
+.link-address {
+  color: var(--first-color-text);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 img {
@@ -153,18 +167,6 @@ button:hover {
   margin-bottom: 16px;
 }
 
-.address {
-  font-style: normal;
-  font-weight: 400;
-}
-
-.link-address {
-  color: var(--first-color-text);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
 .nav-link {
   font-weight: 500;
   font-size: 16px;
